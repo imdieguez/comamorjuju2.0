@@ -1,0 +1,387 @@
+/********* INÍCIO *********/
+
+/* Header */
+.header-container {
+    margin: 1rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    color: #9C8CC4;
+    font-weight: 700;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:visited {
+    color: #9C8CC4;
+}
+
+li a:link {
+    color: #9C8CC4;
+}
+
+.header-container h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: #9C8CC4;
+    font-weight: 700;
+}
+
+
+.header-container img {
+    width: 6%;
+    margin-right: 0.5rem;
+}
+
+main {
+    cursor: default;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+}
+
+.header-title a {
+    text-decoration: none;
+}
+
+.header-title a:visited {
+    color: #9C8CC4;
+}
+
+.header-title a:link {
+    color: #9C8CC4;
+}
+/* Capa Home */
+.main-banner {
+    background: url(/img/Group\ 8\ \(1\).png) no-repeat;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+
+.main-banner h1 {
+    font-size: 8rem;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.main-banner h2 {
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    line-height: 4rem;
+}
+
+.main-banner button {
+    font-size: 1.4rem;
+    background: white;
+    border: 2px solid white;
+    color: #685595;
+    border-radius: 3rem;
+    font-family: 'Source Serif Pro', serif;
+    margin-top: 0.8rem;
+    padding: 0.5rem;
+
+    transition: 0.1s;
+    box-shadow: 1px 6px 10px rgb(119, 119, 119);
+}
+
+.main-banner button:hover {
+    color: white;
+    background: #c3b0ec;
+    transform: scale(1.03);
+    box-shadow: 1px 1px 10px white;
+}
+
+/* Datas */
+.main-data {
+    margin: 4rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 4rem;
+}
+
+.main-data .data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.main-data .data:hover {
+    cursor: default;
+}
+
+.main-data .data h2 {
+    font-family: 'Exo', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+}
+
+.main-data .data p {
+    font-family: 'Exo', sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.main-data .data img {
+    width: 10rem;
+    margin-bottom: 1rem;
+}
+
+/* Newsletter */
+.newsletter-container {
+    margin: 4rem 0;
+    height: 15vh;
+    padding: 0 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #9C8CC4;
+}
+
+.newsletter-container h2 {
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+
+.newsletter-submit input {
+    font-size: 1rem;
+    font-family: 'Exo', sans-serif;
+    width: 23vw;
+    border: 2px solid white;
+}
+
+.newsletter-submit button {
+    font-size: 1rem;
+    font-family: 'Exo', sans-serif;
+    background: white;
+    border: 2px solid white;
+    color: #685595;
+    border-radius: 0.2rem;
+}
+
+/* FAQ */
+.faq-container {
+    margin: 1rem 5%;
+}
+
+.faq-container h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Exo', sans-serif;
+    margin-bottom: 4rem;
+}
+
+.faq-article {
+    border: 2px solid #685595;
+    border-radius: 0 10px 10px 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;    
+}
+
+.faq-article h3 {
+    font-size: 1.5rem;
+    font-family: 'Exo', sans-serif;
+    margin-bottom: 1rem;
+    color: #685595;
+}
+
+.faq-article p {
+    font-size: 1rem;
+    font-family: 'Exo', sans-serif;
+}
+
+/* Footer */
+.footer-container {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 4px solid #9C8CC4;
+}
+
+.footer-container p {
+    color: #9C8CC4;
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    padding: 1rem 5%;
+}
+
+/********* MANIFESTO *********/
+
+.manifesto-container {
+    margin: 1rem 5%;
+    border-top: 4px solid #9C8CC4;
+    
+}
+
+.manifesto h2{
+font-family: 'Exo', sans-serif;
+font-size: 1.5rem;
+margin: 2rem 0;
+color: #9C8CC4;
+}
+
+.manifesto h3 {
+    font-family: 'Exo', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0.4rem 0;
+    text-align: center;
+}
+
+.manifesto p {
+    font-family: 'Exo', sans-serif;
+    font-size: 1rem;
+}
+
+.pilares-container {
+    display: flex;
+}
+
+.pilares {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 1rem;
+    text-align: center;
+}
+.pilares img {
+    width: 10rem;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+/********* CONTATO *********/
+.contato-container {
+    margin: 1rem 5%;
+    display: flex;
+    gap: 4rem;
+    border-top: 4px solid #9C8CC4;
+    padding-top: 2rem;
+}
+
+.contato {
+    background: #9C8CC4;
+    flex: 2;
+    border: 2px solid #9C8CC4;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.contato h1 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Exo', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.contato p {
+    color: white;
+    font-size: 1rem;
+    font-family: 'Exo', sans-serif;
+    line-height: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.contato h2 {
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Exo', sans-serif;
+    margin-bottom: 0.2rem;
+}
+
+.contato input {
+    margin-bottom: 0.8rem;
+    font-family: 'Exo', sans-serif;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: none;
+    width: 20vw;
+    padding: 0.3rem;
+}
+
+.contato textarea {
+    width: 54vw;
+    height: 20vh;
+    font-family: 'Exo', sans-serif;
+    font-size: 1rem;
+    padding: 0.3rem;
+    color: grey;
+    resize: none;
+    border-radius: 0 10px 10px 10px;
+    border: 1px solid #9C8CC4;
+}
+
+.contato button {
+    float: right;
+}
+
+#form-submit-btn {
+    font-family: 'Exo', sans-serif;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid #9C8CC4;
+    border-radius: 3rem;
+    padding: 0.3rem 1rem;
+    color: #685595;
+}
+
+/* ANONIMATO */
+.anonimato-container {
+    background: #685595;
+    flex: 1;
+    height: 43vh;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.anonimato-container h2 {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Exo', sans-serif;
+    margin-bottom: 0.2rem;
+    text-align: center;
+    margin: 1.2rem 0;
+}
+
+.anonimato-container p {
+    color: white;
+    font-size: 1rem;
+    font-family: 'Exo', sans-serif;
+    line-height: 1.3rem;
+    text-align: center;
+}
+
+.anonimato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.anonimato img {
+    width: 10rem;
+}
